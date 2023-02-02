@@ -1,0 +1,17 @@
+{
+  "name": "storeduplicator",
+  "version": "1.0.0",
+  "description": "Shopify Store Duplicator. Duplicates Products, pages, blogs & articles",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "213a Creative Studio <hello@213a.ca>",
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^5.1.0",
+    "dotenv": "^8.2.0",
+    "shopify-api-node": "^3.3.1"
+  }
+}
