@@ -11,8 +11,8 @@ With this tool, you can sync/duplicate the following resources:
 - Articles (mapped to a blog of the same handle. Comes along with their metafields)
 - Pages (along with their metafields)
 
-## Setting it all up
-You'll first need to [create 2 private apps](https://help.shopify.com/en/manual/apps/private-apps#generate-credentials-from-the-shopify-admin "Read Shopify's documentation on how to create a private app"). One needs read access on the source store, the other needs read/write on the destination store.
+## Set up
+You'll first need to create an application on each store. One needs read access on the source store (source), the other needs read/write (destination store).
 
 Here are the access copes that will be required:
 - Store content like articles, blogs, comments, pages, and redirects
@@ -50,8 +50,6 @@ By default, simply running `yarn start` will validate that each store is able to
 - Copying products, pages & articles: run `yarn start --products --articles --pages`
 - Just copy everything you can: run `yarn start --all`
 
-## Issues and bugs
-Create a new issue, or issue a new PR on this repo if you've found an issue and would like it fixed.
 
 ## License 
-MIT. Do whatever you like with this stuff ✌️.
+MIT. Do whatever you like with this stuff ^-^.
